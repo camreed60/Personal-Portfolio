@@ -4,16 +4,16 @@ import '../Styles/navbarStyle.css';
 export default function Navbar() {
     return (
         <nav className='navbar'>
-            <a className='title' href='/'>devin-diaz@portfolio:</a>
+            <a className='title' href='/'>camndon-reed@portfolio:</a>
             <ul>
                 <li>
-                    <a href='/'>~/</a>
+                    <a href='/'>~</a>
                 </li>
                 <li>
                     <a href='/projects'>/projects</a>
                 </li>
                 <li>
-                    <a href='/resume'>/resume</a>
+                    <a href='/cv'>/cv</a>
                 </li>
                 <li>
                     <a href='/contact'>/contact</a>
