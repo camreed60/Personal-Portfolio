@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -10,7 +18,7 @@
 }
 
 .title {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .navbar ul {
@@ -22,6 +30,26 @@
 }
 
 .navbar a {
-    color: inherit;
+    color: #ddd; /* Slightly darker text color */
     text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+}
+
+.navbar li {
+    position: relative;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar li:hover {
+    background-color: #555; /* Light up when hovered */
+}
+
+.navbar li:hover a {
+    color: #fff; /* Text lights up to white on hover */
 }

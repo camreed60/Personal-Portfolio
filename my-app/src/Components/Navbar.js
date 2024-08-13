@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/navbarStyle.css'
+import '../Styles/navbarStyle.css';
 
 export default function Navbar() {
     return (
@@ -9,19 +9,16 @@ export default function Navbar() {
                 <li>
                     <a href='/'>~/</a>
                 </li>
-
                 <li>
                     <a href='/projects'>/projects</a>
                 </li>
-
                 <li>
                     <a href='/resume'>/resume</a>
                 </li>
-
                 <li>
-                    <a href='/'>/contact</a>
+                    <a href='/contact'>/contact</a>
                 </li>
             </ul>
         </nav>
-    )
+    );
 }
